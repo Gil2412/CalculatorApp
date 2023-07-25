@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="calcContainer">
+      <div class="calcBody">
+        <div class="switcherAndHistoryContainer">
+          <div class="switcher">
+            <i class="bi-moon-fill"></i>
+          </div>
+          <div class="historyBtn">
+            <i class="bi-clock-fill"></i>
+          </div>
+        </div>
+        <div class="screen"></div>
+        <div class="buttons">
+          <div class="firLine">
+            <button class="btn operators sBtn" id="erase">AC</button>
+            <button class="btn operators sBtn" id="backSpace">C</button>
+            <button class="btn operators sBtn" id="plusAndMinus">+/-</button>
+            <button class="btn operators" id="division" value="/">/</button>
+          </div>
+          <div class="secLine">
+            <button class="btn" id="7" value="7">7</button>
+            <button class="btn" id="8" value="8">8</button>
+            <button class="btn" id="9" value="9">9</button>
+            <button class="btn operators" id="x" value="*">x</button>
+          </div>
+          <div class="thiLine">
+            <button class="btn" id="4" value="4">4</button>
+            <button class="btn" id="5" value="5">5</button>
+            <button class="btn" id="6" value="6">6</button>
+            <button class="btn operators" id="+" value="+">+</button>
+          </div>
+          <div class="fouLine">
+            <button class="btn" id="1" value="1">1</button>
+            <button class="btn" id="2" value="2">2</button>
+            <button class="btn" id="3" value="3">3</button>
+            <button class="btn operators" id="-" value="-">-</button>
+          </div>
+          <div class="fifLine">
+            <button class="btn" id="zero" value="0">0</button>
+            <button class="btn" id="point" value=".">.</button>
+            <button class="btn operators sBtn" id="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
